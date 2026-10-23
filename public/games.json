@@ -54,9 +54,10 @@
       "max": 8
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "images/19f1fc27-2101-443c-9290-7105614f9fa8.webp",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "bang-the-duel",
