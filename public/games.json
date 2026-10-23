@@ -158,9 +158,10 @@
       "max": 10
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/lK6ckNLJxBkO7cMQArcb1Z24pbx9CfQImAJFYhyznqQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/dG95c2NlbnRlci5p/dC9pL28vMjAyMy8w/OC8yMjlmZmNmNC1o/ZGdfMTM2OTg3MzAx/XzcucG5n",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "coco-rido-2",
@@ -172,9 +173,10 @@
       "max": null
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/V77aakgGHjvxCx3GeqIeWdxqlIbdpBaJwgPKe4wKBeQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/b2dnZXR0aWZhbnRh/c3RpY2kuY29tLzIw/MjUvMDYvR0lPMDAw/OTQtMDAwLTIyMDA4/LmpwZw",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "coco-rido-hot",
@@ -186,9 +188,10 @@
       "max": null
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/QlHMpEIKGv4MStXX14TDpA_J2NIjq9bmvWe8KkINHbI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/b2dnZXR0aWZhbnRh/c3RpY2kuY29tLzIw/MjUvMDYvR0lPMDAw/OTUtMDAwLTIyMDE1/LmpwZw",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "cortex",
@@ -200,9 +203,10 @@
       "max": 6
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/dguYCxz0S4nuLtgcI0wd98jRez4bfdjUJmWBtNcod78/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5naW9kaWNhcnQu/Y2xvdWQvcC9zL1gx/OTg5OV8zLndlYnA",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "dixit",
@@ -214,9 +218,10 @@
       "max": 6
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/MVFzBrfsdGEYCXoI5LSi1vD7fJKqBgXFSfJ8duVxcNs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGFmZWx0cmluZWxs/aS5pdC9pbWFnZXMv/MzU1ODM4MDA4MzQ4/MV8wXzBfNDY0XzBf/NzUuanBn",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "exploding-kittens",
@@ -228,9 +233,10 @@
       "max": 10
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/CtminI59zwy6LhoFLLvRMIAetOkz_mgOOLnO1nspNp4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vc29sa2l0/ZWMuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIxLzA1L0V4/cGxvZGluZy1LaXR0/ZW5zLVBhcnR5LVBh/Y2sucG5nP2ZpdD02/MDAsNjAwJnNzbD0x",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "forza-4x4",
@@ -256,7 +262,7 @@
       "max": 6
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/-QDz4rwz0wB-qrjiXMnHNsO5CadQS4oRQwdQ80aiApQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGFmZWx0cmluZWxs/aS5pdC9pbWFnZXMv/MDgyNDk2ODA5MTYx/Nl8wXzBfNTM2XzBf/NzUuanBn",
     "description": null,
     "manuals": [],
     "playerConfigurations": [
@@ -280,9 +286,10 @@
       "max": 6
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/XV--9hFECnkM-FJkWTYShOATodhUJMGIJXVEPOr13e8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/ODF5WUhTblg0akwu/anBn",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "il-trauma-del-tram",
@@ -294,9 +301,10 @@
       "max": 13
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/D9kVf7m5kM9SqMzyQQcsHDqe-3bF8pOiyphh3iU8oqM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLmVi/YXlpbWcuY29tL2lt/YWdlcy9nL0ZJZ0FB/T1N3NWdobHp6WGgv/cy1sMjI1LmpwZw",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "indovina-chi",
@@ -308,9 +316,10 @@
       "max": 2
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/IEeO9j88akJaiLxwGOhLHgWL6b3CejSeiqYuhp8TnUk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWRlYWxvLmNvbS9m/b2xkZXIvUHJvZHVj/dC8yMTI4MTMvMS8y/MTI4MTMxMTcvczEw/X3Byb2R1a3RiaWxk/X21heC9pbmRvdmlu/YS1jaGktZ2lvY28t/ZGEtdGF2b2xvLXBl/ci0yLWdpb2NhdG9y/aS1mNjEwNTEwMy5q/cGc",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "lisola-di-fuoco",
@@ -322,9 +331,10 @@
       "max": 4
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/SI-AZLocWLLlgJYVghqwu-4s19xrS-KianVSmcNgp7E/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/bWlzdGVydG95c21l/Z2FzdG9yZS5jb20v/Mzg0MzktcHJvZHVj/dF9tYWluL2xpc29s/YS1kaS1mdW9jby1n/aW9jby1kYS10YXZv/bG8tYXZ2ZW50dXJh/LTItNC1naW9jYXRv/cmktZWRpemlvbmUt/aXRhbGlhbmEuanBn",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "lupus-in-tabula",
@@ -336,9 +346,10 @@
       "max": 25
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/KGXWbKPVDY9P-NGpWVVktOReVHRzJro1ZwBLOnaCL5k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLmVi/YXlpbWcuY29tL2lt/YWdlcy9nL1lVSUFB/ZVN3NXNscGx1flMv/cy1sMjI1LmpwZw",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "mascarade",
@@ -350,9 +361,10 @@
       "max": 13
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/X7V8YkP_iqQMZMQ4MOsjggr3YdJ3MD0FarX-zamCXsM/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/dXBsYXkuaXQvc3Rv/cmFnZS8zNTc4MjQv/Y29udmVyc2lvbnMv/bWFzY2FyYWRlLWVk/aXppb25lLWluZ2xl/c2UtZm90b29sZC53/ZWJw",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "metropoli",
@@ -364,9 +376,10 @@
       "max": 6
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/nn9_NN9EpNqORpto_sW7IoD1kWJSXScwQKA__NS25hg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naW9j/aGlzdWxub3N0cm90/YXZvbG8ud29yZHBy/ZXNzLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxMC8wMy9j/MGU1YS1pbWFnZTEu/anBnP3c9Mjgx",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "muffin-time",
@@ -378,9 +391,10 @@
       "max": 8
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/LVq2hTYn0G8CUFI_VrvRiwGC24EylmM7iFfrbkKZEGE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9saWJy/ZXJpYXNlbW9sYS5p/dC8xMDU1MDAtbWVk/aXVtX2RlZmF1bHQv/bXVmZmluLXRpbWUt/Z2lvY28tZGEtdGF2/b2xvLXBhcnR5LWdh/bWUteWFzLWdhbWVz/LWluLWl0YWxpYW5v/LWV0YS0xMy5qcGc",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "mysterium",
@@ -392,9 +406,10 @@
       "max": 7
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/sXjjtNCDo1gcqAN4rR-HzQ1SLZ4M8KFVRjTfGgwN6do/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/ZC10ZWNoLXNybC5j/b20vZ2lvY2hpLWlu/LXNjYXRvbGEvbXlz/dGVyaXVtLmpwZw",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "ole-guacamole",
@@ -406,9 +421,10 @@
       "max": 8
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/xT-T4fgb61257itn2faX1nby-WYzZCzCjtfcbQTkKnE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZWRzLWdyb3VwLml0/L2ZpbGVzL2VsZWN0/cm9uaWNzX0ZpbGVz/L0ZvdG8vMTQ4NTgx/MC5QTkc",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "risiko",
@@ -420,9 +436,10 @@
       "max": 6
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "images/e2a7cbbd-bcf7-4321-a604-990c16687abf.webp",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "rubiks-race",
@@ -436,7 +453,8 @@
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
     "image": null,
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "saltinmente",
@@ -448,9 +466,10 @@
       "max": 4
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/T5UPhHEIBdAIA8ahItl-dbHOFO7qCSCrHyZtNUFS7lc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/dG95c2NlbnRlci5p/dC9pL28vMjAyMC8w/NC82ZTgzNDAxZi1o/ZGdfaHNiYTUyMjYx/MDNfMS5qcGc",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "scotland-yard",
@@ -462,9 +481,10 @@
       "max": 6
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "images/6b59cb71-376e-49e3-ae55-7f6695da9c25.webp",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "6-fuori",
@@ -476,9 +496,10 @@
       "max": 9
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/83-Pg5j0UYnjYD38h7THDDIPNK7AyFd41tqJQfJWNvw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/dG95c2NlbnRlci5p/dC9pL28vMjAyNS8w/Mi82ZDEzZDQzYS14/el8xNTMzMzUxLmpw/Zw",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "sei-sicuro",
