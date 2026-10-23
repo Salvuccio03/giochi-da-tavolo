@@ -249,9 +249,10 @@
       "max": 4
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "images/a6fa84b9-f064-47e9-8e91-56d53a168c34.webp",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "heat",
