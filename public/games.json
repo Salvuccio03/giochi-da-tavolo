@@ -99,9 +99,10 @@
       "max": 9
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/xSUk1l3cg8Tla5Aoiw_tXkequl1N4g8PaSPZM0XX3RI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/YnJpY2tvbmUuaXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MTAvYmVjY2F0by1n/aW9jby1kYS10YXZv/bG8tMjU0eDI1NC5q/cGc",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "bomb-busters",
@@ -113,9 +114,10 @@
       "max": 5
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/qrrBzXHbgJRWf97avrEsXziIF26zgf2WyE3mPQyvGDA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/ZC10ZWNoLXNybC5j/b20vZ2lvY2hpLWlu/LXNjYXRvbGEvYm9t/Yi1idXN0ZXJzLmpw/Zw",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "cera-una-volta",
@@ -127,9 +129,10 @@
       "max": 6
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/qFsXarJ7EKuthNPl5KQsRIOv7kHfig4V6sWAue4oZEQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/c3RyYXRlZ2lhMi5p/dC93cC1jb250ZW50/L3VwbG9hZHMvY19l/cmFfdW5hX3ZvbHRh/X2dpb2NvX2RpX2Nh/cnRlLTEuanBn",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "cluedo",
