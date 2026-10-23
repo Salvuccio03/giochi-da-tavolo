@@ -451,7 +451,7 @@
       "max": 2
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/7_KuLTg8Sd0sFZxZLe3Y9tZ1lxLwqQLAwFXE1HE3OG8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/bWlzdGVydG95c21l/Z2FzdG9yZS5jb20v/MTgxMjMtc3F1YXJl/X2xhcmdlX2RlZmF1/bHQvZ2lvY28tZGEt/dGF2b2xvLXJ1Ymlr/LXMtcmFjZS5qcGc",
     "description": null,
     "manuals": [],
     "playerConfigurations": []
@@ -511,9 +511,10 @@
       "max": 30
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/CxrfzrHhmfU1IJesAfAS-g3KGXIka_bVZFGLjz_mGYw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZHVuZ2VvbmRpY2Uu/aXQvNTM3MzktbGFy/Z2VfZGVmYXVsdC9z/ZWktc2ljdXJvLmpw/Zw",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "si-oscuro-signore",
@@ -525,9 +526,10 @@
       "max": 13
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/oLY7Sk0IHPVhkyLOO8D6Km3UFHI3TdqHUJO-Q--CSuo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9saWJy/ZXJpYXNlbW9sYS5p/dC84NTYzOC1tZWRp/dW1fZGVmYXVsdC9s/dXhhc3RyYS1naW9j/by1kYS10YXZvbG8t/c2ktb3NjdXJvLXNp/Z25vcmUtc3RhbmRh/bG9uZS1pbi1pdGFs/aWFuby1ldGEtOC5q/cGc",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "telesketch",
@@ -539,9 +541,10 @@
       "max": 8
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/pBdabhsHN8JL81DSspNVvyqIv8YLwQucVXhsQweIMI0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGFmZWx0cmluZWxs/aS5pdC9pbWFnZXMv/MzU1ODM4MDA3NDQ1/OF8wXzBfNTM2XzBf/NzUuanBn",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "thats-not-a-hat",
@@ -553,9 +556,10 @@
       "max": 8
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/cfnSma6KewrJQNLKiEj1mJYWUw3f9BtL6bRoWVOmbDs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGFmZWx0cmluZWxs/aS5pdC9pbWFnZXMv/NDAwNTU1NjI0Njg1/NF8wXzVfNTM2XzBf/NzUuanBn",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "the-game",
@@ -581,9 +585,10 @@
       "max": 6
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/QZ-440sPK9j8p-jisRYrh7CL2f_9ZsPtHSJDT6vrrpI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9kaW1h/aW9naW9jYXR0b2xp/LmNvbS9jZG4vc2hv/cC9maWxlcy84MVFi/OW1IdXlGTC5fQUNf/U0wxNTAwXzU4MHgu/anBnP3Y9MTczNDI2/MDQ2Mw",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "throw-throw-burrito",
@@ -595,9 +600,10 @@
       "max": 6
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/zi17womR19LAFVkxKeA80DbtqEfsChisyNncHTks-eo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9naW9k/aWNhcnQuaXQvaW14/L2wvWDQzODc0L2Fz/bW9kZWUtdGhyb3ct/dGhyb3ctYnVycml0/by1pbC1naW9jby1k/YS10YXZvbG8tcGl1/LWRpdmVydGVudGUt/ZS1tb3JiaWRvLWRp/LXNlbXByZS53ZWJw",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "trivial-pursuit-party",
@@ -609,9 +615,10 @@
       "max": 6
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/xVNLjYJLkkTI2N18nHlrkUD9jLMuu3aoqprAuYMnzLg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFSNHVCZU9ZVkwu/anBn",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "uno-flip",
@@ -623,9 +630,10 @@
       "max": 10
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/CueDJS1e2qVj8Xw86akrbEgQnCZC3AKHRXnxUJu2xqI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/aWJzLml0L2ltYWdl/cy8wODg3OTYxNzUx/MDYyXzBfMF80NjRf/MF83NS5qcGc",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "uno-no-mercy",
@@ -637,9 +645,10 @@
       "max": 6
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/GsoS5mGp4AtfMC4FCTLhWWsGyzAnbAUFueVMYIOnk8c/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/bGFmZWx0cmluZWxs/aS5pdC9pbWFnZXMv/MDE5NDczNTIyMDgw/OV8wXzBfNDY0XzBf/NzUuanBn",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "vudu",
@@ -651,9 +660,10 @@
       "max": 8
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/wlc_VvxXCbELPTbmWtoCcIq-FzUIMvP3STiU7cJDFdg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/ZC10ZWNoLXNybC5j/b20vZ2lvY2hpLWlu/LXNjYXRvbGEvdnVk/dS5qcGc",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "zombie-burrito",
@@ -665,9 +675,10 @@
       "max": 6
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/AT9V0Js4cC55_LyNqKpTToA7Lk5BeElwMU2oOXt-9sU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLmVi/YXlpbWcuY29tL2lt/YWdlcy9nL292Y0FB/ZVN3T1BGb2hKamMv/cy1sNTAwLmpwZw",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "dodge-city",
