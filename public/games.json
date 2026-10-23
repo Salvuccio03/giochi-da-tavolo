@@ -870,13 +870,10 @@
     "type": "expansion",
     "demo": false,
     "players": null,
-    "image": "images/pioggia-battente.webp",
+    "image": "https://imgs.search.brave.com/Awbw09OF7IjqlHR4kfsUI4D3zv9RNXRyWl7XsHoHCuA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/bGFmZWx0cmluZWxs/aS5pdC9pbWFnZXMv/MDgyNDk2ODA5MTYy/M18wXzBfNTM2XzBf/NzUuanBn",
     "description": null,
     "manuals": [],
-    "imageSource": {
-      "page": "https://www.daysofwonder.com/game/heat-heavy-rain/",
-      "url": "https://cdn.svc.asmodee.net/production-daysofwonder/uploads/image-converter/2024/07/HEAT_HEAVY-RAIN_SPREADBOX_EN.webp"
-    }
+    "playerConfigurations": []
   },
   {
     "id": "visione-a-tunnel",
@@ -884,13 +881,10 @@
     "type": "expansion",
     "demo": false,
     "players": null,
-    "image": "images/visione-a-tunnel.webp",
+    "image": "https://imgs.search.brave.com/67xGb6Sic8bxn_1nL-Gse12vfNX0InzQ6eEo6QIQSoI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9saWJy/ZXJpYXNlbW9sYS5p/dC8xMDY3MTEtbWVk/aXVtX2RlZmF1bHQv/dmlzaW9uZS1hLXR1/bm5lbC1lc3BhbnNp/b25lLXBlci1oZWF0/LWdpb2NvLWRhLXRh/dm9sby1pbi1pdGFs/aWFuby1ldGEtMTAu/anBn",
     "description": null,
     "manuals": [],
-    "imageSource": {
-      "page": "https://www.daysofwonder.com/game/heat-tunnel-vision/",
-      "url": "https://cdn.svc.asmodee.net/production-daysofwonder/uploads/image-converter/2025/02/9103-HTEX2_EN_TOPBOX_20240924.webp"
-    }
+    "playerConfigurations": []
   },
   {
     "id": "la-vendetta-della-lupa-mannara",
@@ -940,13 +934,10 @@
     "type": "expansion",
     "demo": false,
     "players": null,
-    "image": "images/double-trouble.jpg",
+    "image": "https://imgs.search.brave.com/0Vl7bv3ErdwLpPDjH-tkeCh0FsyGu9t_EylJ3hBVU_s/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9nYW1l/c2FuZGNvbWljcy5p/dC9jYXRhbG9nLzM0/MTMzNy1tZWRpdW1f/ZGVmYXVsdC92dWR1/LWRvdWJsZS10cm91/YmxlLWVzcGFuc2lv/bmUtZ2lvY28tZGEt/dGF2b2xvLWl0YWxp/YW5vLmpwZw",
     "description": null,
     "manuals": [],
-    "imageSource": {
-      "page": "https://warmaster.it/products/vudu-double-trouble",
-      "url": "https://cdn.shopify.com/s/files/1/0947/1787/0404/files/12473_vudu-double-trouble.jpg?v=1768662702"
-    }
+    "playerConfigurations": []
   },
   {
     "id": "mondi-paralleli",

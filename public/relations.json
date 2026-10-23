@@ -107,24 +107,6 @@
     "combinedPlayers": null
   },
   {
-    "id": "pioggia-battente-for-heat",
-    "type": "expansion_for",
-    "from": "pioggia-battente",
-    "to": "heat",
-    "source": "Lista espansioni fornita dal proprietario.",
-    "combinedPlayers": null,
-    "conditions": "Annotazione del proprietario: +1 giocatore. Limite totale della configurazione non specificato."
-  },
-  {
-    "id": "visione-a-tunnel-for-heat",
-    "type": "expansion_for",
-    "from": "visione-a-tunnel",
-    "to": "heat",
-    "source": "Lista espansioni fornita dal proprietario.",
-    "combinedPlayers": null,
-    "conditions": "Annotazione del proprietario: +1 giocatore. Limite totale della configurazione non specificato."
-  },
-  {
     "id": "la-vendetta-della-lupa-mannara-for-lupus-in-tabula",
     "type": "expansion_for",
     "from": "la-vendetta-della-lupa-mannara",
@@ -150,17 +132,6 @@
     "combinedPlayers": null
   },
   {
-    "id": "double-trouble-for-vudu",
-    "type": "expansion_for",
-    "from": "double-trouble",
-    "to": "vudu",
-    "source": "Lista espansioni fornita dal proprietario.",
-    "combinedPlayers": {
-      "min": 4,
-      "max": 16
-    }
-  },
-  {
     "id": "mondi-paralleli-for-vudu",
     "type": "expansion_for",
     "from": "mondi-paralleli",
@@ -175,5 +146,38 @@
     "to": "throw-throw-avocado",
     "source": "Lista espansioni fornita dal proprietario.",
     "combinedPlayers": null
+  },
+  {
+    "id": "pioggia-battente-for-heat",
+    "type": "expansion_for",
+    "from": "pioggia-battente",
+    "to": "heat",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": null,
+    "conditions": "Annotazione del proprietario: +1 giocatore. Limite totale della configurazione non specificato.",
+    "requiredProductIds": []
+  },
+  {
+    "id": "visione-a-tunnel-for-heat",
+    "type": "expansion_for",
+    "from": "visione-a-tunnel",
+    "to": "heat",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": null,
+    "conditions": "Annotazione del proprietario: +1 giocatore. Limite totale della configurazione non specificato.",
+    "requiredProductIds": []
+  },
+  {
+    "id": "double-trouble-for-vudu",
+    "type": "expansion_for",
+    "from": "double-trouble",
+    "to": "vudu",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": {
+      "min": 4,
+      "max": 16
+    },
+    "conditions": "",
+    "requiredProductIds": []
   }
 ]
