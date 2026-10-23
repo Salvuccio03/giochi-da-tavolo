@@ -84,9 +84,10 @@
       "max": 4
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/Mm4SKEnHw2NhGhfS-RDunWeQHdmuaxHTeR9Pkpu0v70/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbHBp/Y2NvbG9uZXJkLml0/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIz/LzA4L0JhcnJhZ2Vf/Qk9YLTNELnBuZw",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "beccato",
