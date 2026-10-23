@@ -144,9 +144,10 @@
       "max": 6
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://imgs.search.brave.com/3pYX3D27YSz_f7EWqutC2y_j56deojScRVIF-zG_fDs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Z2lvY2hpLWRhLXRh/dm9sby5pdC93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxNi8wNy9D/bHVlZG8tY2xhc3Np/Y28uanBn",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "cluedo-conspiracy",
@@ -571,9 +572,10 @@
       "max": 5
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "https://www.dvgiochi.com/giochi/thegame/box.jpg",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "throw-throw-avocado",
