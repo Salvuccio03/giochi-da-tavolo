@@ -7,8 +7,8 @@ function Icon({ name, ...props }) {
   return <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true" {...props}>{name === 'search' ? <><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></> : name === 'people' ? <><circle cx="9" cy="7" r="3"/><path d="M3 21v-4a6 6 0 0 1 12 0v4M16 4a3 3 0 0 1 0 6m2 4a5 5 0 0 1 3 5"/></> : <><rect x="4" y="4" width="16" height="16" rx="4"/><circle cx="8" cy="8" r=".6"/><circle cx="16" cy="16" r=".6"/><circle cx="12" cy="12" r=".6"/></>}</svg>
 }
 function Cover({ product, badge = false }) {
-  const [failed, setFailed] = useState(false)
-  return <div className="cover">{product.image && !failed ? <img src={assetUrl(product.image)} alt={`Copertina di ${product.name}`} onError={() => setFailed(true)} /> : <div className="cover-placeholder"><Icon/><span>Copertina non disponibile</span></div>}{badge && product.players && <span className="players" aria-label={`Numero ufficiale di giocatori: ${playerLabel(product.players)}`}>{playerLabel(product.players)}</span>}</div>
+  const [failedImage, setFailedImage] = useState(null)
+  return <div className="cover">{product.image && failedImage !== product.image ? <img src={assetUrl(product.image)} alt={`Copertina di ${product.name}`} onError={() => setFailedImage(product.image)} /> : <div className="cover-placeholder"><Icon/><span>Copertina non disponibile</span></div>}{badge && product.players && <span className="players" aria-label={`Numero ufficiale di giocatori: ${playerLabel(product.players)}`}>{playerLabel(product.players)}</span>}</div>
 }
 function GameCard({ product, players }) {
   return <a className="game-card" href={`#/game/${encodeURIComponent(product.id)}`}><Cover product={{...product, players}} badge/><h3>{product.name}</h3></a>
@@ -31,7 +31,23 @@ export default function App() {
   const [playerCount, setPlayerCount] = useState('')
   const [id, setId] = useState(currentId)
   const main = useRef(null)
-  useEffect(() => { const controller = new AbortController(); loadCollection(controller.signal).then(setData).catch(e => { if (e.name !== 'AbortError') setError(e.message) }); return () => controller.abort() }, [])
+  useEffect(() => {
+    let active = true
+    let pending = false
+    const controller = new AbortController()
+    const refresh = async () => {
+      if (pending || document.visibilityState === 'hidden') return
+      pending = true
+      try { const next = await loadCollection(controller.signal); if (active) { setData(previous => JSON.stringify(previous) === JSON.stringify(next) ? previous : next); setError('') } }
+      catch (e) { if (active && e.name !== 'AbortError') setError(previous => previous || e.message) }
+      finally { pending = false }
+    }
+    refresh()
+    const timer = window.setInterval(refresh, 30000)
+    window.addEventListener('focus', refresh)
+    document.addEventListener('visibilitychange', refresh)
+    return () => { active = false; controller.abort(); window.clearInterval(timer); window.removeEventListener('focus', refresh); document.removeEventListener('visibilitychange', refresh) }
+  }, [])
   useEffect(() => { const update = () => { setId(currentId()); window.scrollTo(0, 0); main.current?.focus() }; window.addEventListener('hashchange', update); return () => window.removeEventListener('hashchange', update) }, [])
   const product = data?.products.find(p => p.id === id)
   useEffect(() => { document.title = product ? `${product.name} · Al tavolo` : 'Al tavolo · La mia collezione' }, [product])

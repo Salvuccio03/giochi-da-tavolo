@@ -27,7 +27,7 @@ export function validateCollection(products, relations) {
 }
 export async function loadCollection(signal) {
   const [products, relations] = await Promise.all(['games.json', 'relations.json'].map(async file => {
-    const response = await fetch(assetUrl(file), { signal })
+    const response = await fetch(`${assetUrl(file)}?v=${Date.now()}`, { signal, cache: 'no-store' })
     if (!response.ok) throw new Error(`Impossibile caricare ${file}.`)
     return response.json()
   }))

@@ -6,7 +6,7 @@ import { defineConfig, globalIgnores } from 'eslint/config'
 
 export default defineConfig([
   globalIgnores(['dist', '.catalog-backups']),
-  { files: ['scripts/**/*.mjs', 'tests/**/*.js'], languageOptions: { globals: globals.node } },
+  { files: ['scripts/**/*.mjs', 'tests/**/*.js', 'vite.config.js'], languageOptions: { globals: globals.node } },
   { files: ['**/*.mjs'], extends: [js.configs.recommended] },
   {
     files: ['**/*.{js,jsx}'],

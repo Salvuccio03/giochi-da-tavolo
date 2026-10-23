@@ -68,3 +68,5 @@ GitHub Pages e i workflow con runner Ubuntu standard sono gratuiti per repositor
 `npm run lint`, `npm test`, `npm run build`.
 
 Il gestore ascolta soltanto su 127.0.0.1 e verifica host, origine e token della sessione. Non accetta scritture da pagine esterne; gli upload ammettono solo firme JPG/PNG/WebP/PDF, con nomi generati dal server. Nessun nuovo pacchetto è necessario.
+
+Il gestore ora attende la conferma della versione pubblicata prima di dire che l’aggiornamento è visibile. Il catalogo rilegge i dati senza cache ogni 30 secondi e quando si torna sulla scheda. Il file deployment.json identifica il commit pubblicato: l’invio dei sorgenti da solo non è considerato un deploy completato.

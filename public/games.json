@@ -39,9 +39,10 @@
       "max": 7
     },
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
-    "image": null,
+    "image": "images/e0a052ed-8cb6-47b4-8a20-e520e451f3d4.webp",
     "description": null,
-    "manuals": []
+    "manuals": [],
+    "playerConfigurations": []
   },
   {
     "id": "bang-dice-explosion",

@@ -48,6 +48,24 @@ export function createEditorServer({ root = projectRoot, publish = publishCatalo
       const url = new URL(req.url, origin)
       if (url.pathname.startsWith('/api/')) {
         if (req.headers['x-editor-token'] !== token) return reply(403, { error: 'Sessione non valida. Ricarica il gestore.' })
+        if (req.method === 'GET' && url.pathname === '/api/deployment') {
+          const match = /^https:\/\/github\.com\/([\w-]+)\/([\w.-]+?)\/?$/.exec(url.searchParams.get('repository') || '')
+          if(!match) throw Error('Repository non valido.')
+          const siteUrl = `https://${match[1].toLowerCase()}.github.io/${match[2]}/`
+          try {
+            const [products,relations] = await Promise.all(['games','relations'].map(async name => {
+              const response = await fetch(`${siteUrl}${name}.json?v=${Date.now()}`,{cache:'no-store',signal:AbortSignal.timeout(12000)})
+              if(!response.ok) throw Error('Pubblicazione non ancora disponibile.')
+              return response.json()
+            }))
+            let versionMatches = true
+            if(url.searchParams.get('sha')) {
+              const response = await fetch(`${siteUrl}deployment.json?v=${Date.now()}`,{cache:'no-store',signal:AbortSignal.timeout(12000)})
+              versionMatches = response.ok && (await response.json()).sha === url.searchParams.get('sha')
+            }
+            return reply(200,{deployed:versionMatches && revisionOf(products,relations) === url.searchParams.get('revision'),siteUrl})
+          } catch { return reply(200,{deployed:false,siteUrl}) }
+        }
         if (req.method === 'GET' && url.pathname === '/api/collection') return reply(200, await readCollection(root))
         if (req.method !== 'POST' || !req.headers['content-type']?.startsWith('application/json')) return reply(405, { error: 'Richiesta non supportata.' })
         const input = await body(req)

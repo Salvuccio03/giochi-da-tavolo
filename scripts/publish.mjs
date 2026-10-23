@@ -61,6 +61,11 @@ export async function publishCatalog({ root, repository, githubToken, revision, 
       if(pages.build_type !== 'workflow') throw Error('Imposta Source su GitHub Actions nelle impostazioni Pages.')
       return {message:'Progetto caricato su GitHub. Controlla il workflow Pubblica catalogo per l’esito del deploy.',actionsUrl,siteUrl:pages.html_url,sha,uploaded:true}
     } catch (error) {
+      const siteUrl = `https://${owner.toLowerCase()}.github.io/${name}/`
+      try {
+        const response = await request(`${siteUrl}games.json?v=${Date.now()}`,{method:'GET',cache:'no-store',signal:AbortSignal.timeout(12000)})
+        if(response.ok && Array.isArray(await response.json())) return {message:'Modifiche inviate. Attendo il completamento della pubblicazione.',actionsUrl,siteUrl,sha,uploaded:true}
+      } catch { /* Pages may not yet be configured on the first upload. */ }
       return {message:'Progetto caricato su GitHub. Resta da attivare il sito: apri Settings → Pages, scegli GitHub Actions, poi Actions → Pubblica catalogo → Run workflow. ' + error.message,actionsUrl,settingsUrl,sha,uploaded:true,needsPagesSetup:true}
     }
   }

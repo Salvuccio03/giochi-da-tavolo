@@ -144,6 +144,17 @@ $('#save-publish').addEventListener('click',()=>{ if(!form.reportValidity()) ret
   const links=$('#publish-links');links.replaceChildren()
   for(const [label,url]of [['Controlla pubblicazione su GitHub Actions',result.actionsUrl],['Impostazioni GitHub Pages',result.settingsUrl],['Apri catalogo online',result.siteUrl]].filter(([,url])=>url)){const a=document.createElement('a');a.textContent=label;a.href=url;a.target='_blank';a.rel='noreferrer';links.append(a,document.createTextNode(' · '))}
   $('#github-panel').hidden=false
+  if(result.uploaded && !result.needsPagesSetup) {
+    notice('File inviati. Attendo che la versione salvata sia visibile sul sito…','busy')
+    const repository = $('#repository').value.trim()
+    let deployed = false
+    for(let attempt=0;attempt<24;attempt++){
+      const status = await api(`deployment?repository=${encodeURIComponent(repository)}&revision=${encodeURIComponent(state.revision)}&sha=${encodeURIComponent(result.sha)}`)
+      if(status.deployed){deployed=true;notice('Aggiornamento online verificato. Le modifiche sono visibili nel catalogo.');break}
+      await new Promise(resolve=>setTimeout(resolve,5000))
+    }
+    if(!deployed) notice('Il sito non mostra ancora la versione salvata. Controlla il workflow su GitHub Actions: potrebbe essere in attesa o fallito.','error')
+  }
 })})
 window.addEventListener('beforeunload',e=>{if(dirty||busy){e.preventDefault();e.returnValue=''}})
 try { state=await api('collection');renderList();select(state.products[0]?.id||null);notice('Gestore pronto. Le modifiche rimangono sul PC finché non premi “Salva e aggiorna online”.') } catch(e){notice(e.message,'error')}
