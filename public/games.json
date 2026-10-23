@@ -1,0 +1,925 @@
+[
+  {
+    "id": "alpaca",
+    "name": "Alpaca",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 2,
+      "max": 4
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": [],
+    "playerConfigurations": []
+  },
+  {
+    "id": "back-to-the-future",
+    "name": "Back to the future",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 2,
+      "max": 4
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "bang",
+    "name": "Bang",
+    "type": "base",
+    "demo": false,
+    "players": {
+      "min": 4,
+      "max": 7
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "bang-dice-explosion",
+    "name": "Bang dice explosion",
+    "type": "base",
+    "demo": false,
+    "players": {
+      "min": 3,
+      "max": 8
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "bang-the-duel",
+    "name": "Bang the duel",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 2,
+      "max": 2
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "barrage",
+    "name": "Barrage",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 1,
+      "max": 4
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "beccato",
+    "name": "Beccato",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 4,
+      "max": 9
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "bomb-busters",
+    "name": "Bomb busters",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 2,
+      "max": 5
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "cera-una-volta",
+    "name": "C’era una volta",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 2,
+      "max": 6
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "cluedo",
+    "name": "Cluedo",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 2,
+      "max": 6
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "cluedo-conspiracy",
+    "name": "Cluedo conspiracy",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 4,
+      "max": 10
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "coco-rido-2",
+    "name": "Coco rido 2",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 3,
+      "max": null
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "coco-rido-hot",
+    "name": "Coco rido hot",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 3,
+      "max": null
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "cortex",
+    "name": "Cortex",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 2,
+      "max": 6
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "dixit",
+    "name": "Dixit",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 3,
+      "max": 6
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "exploding-kittens",
+    "name": "Exploding kittens",
+    "type": "base",
+    "demo": false,
+    "players": {
+      "min": 2,
+      "max": 10
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "forza-4x4",
+    "name": "Forza 4×4",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 2,
+      "max": 4
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "heat",
+    "name": "Heat",
+    "type": "base",
+    "demo": false,
+    "players": {
+      "min": 1,
+      "max": 6
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": [],
+    "playerConfigurations": [
+      {
+        "label": "Con espansioni possedute",
+        "players": {
+          "min": 1,
+          "max": 8
+        },
+        "source": "Confermato dal proprietario: Heat incluso nella ricerca per 8 giocatori."
+      }
+    ]
+  },
+  {
+    "id": "il-giro-del-mondo-in-80-giorni",
+    "name": "Il giro del mondo in 80 giorni",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 2,
+      "max": 6
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "il-trauma-del-tram",
+    "name": "Il trauma del tram",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 3,
+      "max": 13
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "indovina-chi",
+    "name": "Indovina chi",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 2,
+      "max": 2
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "lisola-di-fuoco",
+    "name": "L’isola di fuoco",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 2,
+      "max": 4
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "lupus-in-tabula",
+    "name": "Lupus in tabula",
+    "type": "base",
+    "demo": false,
+    "players": {
+      "min": 8,
+      "max": 25
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "mascarade",
+    "name": "Mascarade",
+    "type": "base",
+    "demo": false,
+    "players": {
+      "min": 2,
+      "max": 13
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "metropoli",
+    "name": "Metropoli",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 3,
+      "max": 6
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "muffin-time",
+    "name": "Muffin time",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 2,
+      "max": 8
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "mysterium",
+    "name": "Mysterium",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 2,
+      "max": 7
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "ole-guacamole",
+    "name": "Olè guacamole",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 2,
+      "max": 8
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "risiko",
+    "name": "Risiko",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 3,
+      "max": 6
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "rubiks-race",
+    "name": "Rubiks RACE",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 2,
+      "max": 2
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "saltinmente",
+    "name": "Saltinmente",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 2,
+      "max": 4
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "scotland-yard",
+    "name": "Scotland yard",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 3,
+      "max": 6
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "6-fuori",
+    "name": "6 fuori!",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 3,
+      "max": 9
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "sei-sicuro",
+    "name": "Sei sicuro?",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 2,
+      "max": 30
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "si-oscuro-signore",
+    "name": "Si Oscuro Signore!",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 4,
+      "max": 13
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "telesketch",
+    "name": "TeleSketch",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 4,
+      "max": 8
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "thats-not-a-hat",
+    "name": "That’s not a hat",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 3,
+      "max": 8
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "the-game",
+    "name": "The game",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 1,
+      "max": 5
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "throw-throw-avocado",
+    "name": "Throw throw avocado",
+    "type": "base",
+    "demo": false,
+    "players": {
+      "min": 2,
+      "max": 6
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "throw-throw-burrito",
+    "name": "Throw throw burrito",
+    "type": "base",
+    "demo": false,
+    "players": {
+      "min": 2,
+      "max": 6
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "trivial-pursuit-party",
+    "name": "Trivial pursuit Party",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 3,
+      "max": 6
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "uno-flip",
+    "name": "Uno flip",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 2,
+      "max": 10
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "uno-no-mercy",
+    "name": "Uno no mercy",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 2,
+      "max": 6
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "vudu",
+    "name": "Vudù",
+    "type": "base",
+    "demo": false,
+    "players": {
+      "min": 2,
+      "max": 8
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "zombie-burrito",
+    "name": "Zombie burrito",
+    "type": "standalone",
+    "demo": false,
+    "players": {
+      "min": 3,
+      "max": 6
+    },
+    "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
+    "image": null,
+    "description": null,
+    "manuals": []
+  },
+  {
+    "id": "dodge-city",
+    "name": "Dodge city",
+    "type": "expansion",
+    "demo": false,
+    "players": null,
+    "image": "images/dodge-city.png",
+    "description": null,
+    "manuals": [],
+    "imageSource": {
+      "page": "https://bang.dvgames.com/prod.php?id=3&lang=it",
+      "url": "https://bang.dvgames.com/content/3/box/bang_dodge_city.png"
+    }
+  },
+  {
+    "id": "mezzo-giorno-di-fuoco",
+    "name": "Mezzo giorno di fuoco",
+    "type": "expansion",
+    "demo": false,
+    "players": null,
+    "image": "images/mezzo-giorno-di-fuoco.png",
+    "description": null,
+    "manuals": [],
+    "imageSource": {
+      "page": "https://bang.dvgames.com/prod.php?id=5&lang=it",
+      "url": "https://bang.dvgames.com/content/5/box/bang_high_noon__a_fistful_of_cards.png",
+      "note": "Confezione congiunta High Noon + A Fistful of Cards, come presentata dall’editore."
+    }
+  },
+  {
+    "id": "per-un-pugno-di-carte",
+    "name": "Per un pugno di carte",
+    "type": "expansion",
+    "demo": false,
+    "players": null,
+    "image": "images/per-un-pugno-di-carte.png",
+    "description": null,
+    "manuals": [],
+    "imageSource": {
+      "page": "https://bang.dvgames.com/prod.php?id=5&lang=it",
+      "url": "https://bang.dvgames.com/content/5/box/bang_high_noon__a_fistful_of_cards.png",
+      "note": "Confezione congiunta High Noon + A Fistful of Cards, come presentata dall’editore."
+    }
+  },
+  {
+    "id": "wild-west-show",
+    "name": "Wild West Show",
+    "type": "expansion",
+    "demo": false,
+    "players": null,
+    "image": "images/wild-west-show.png",
+    "description": null,
+    "manuals": [],
+    "imageSource": {
+      "page": "https://bang.dvgames.com/prod.php?id=6&lang=it",
+      "url": "https://bang.dvgames.com/content/6/box/bang_wild_west_show.png"
+    }
+  },
+  {
+    "id": "the-valley-of-shadows",
+    "name": "The Valley of Shadows!",
+    "type": "expansion",
+    "demo": false,
+    "players": null,
+    "image": "images/the-valley-of-shadows.png",
+    "description": null,
+    "manuals": [],
+    "imageSource": {
+      "page": "https://bang.dvgames.com/prod.php?id=7&lang=it",
+      "url": "https://bang.dvgames.com/content/7/box/bang_the_valley_of_shadows.png"
+    }
+  },
+  {
+    "id": "gold-rush",
+    "name": "Gold rush",
+    "type": "expansion",
+    "demo": false,
+    "players": null,
+    "image": "images/gold-rush.png",
+    "description": null,
+    "manuals": [],
+    "imageSource": {
+      "page": "https://bang.dvgames.com/prod.php?id=4&lang=it",
+      "url": "https://bang.dvgames.com/content/4/box/bang_gold_rush.png"
+    }
+  },
+  {
+    "id": "armed-dangerous",
+    "name": "Armed & dangerous",
+    "type": "expansion",
+    "demo": false,
+    "players": null,
+    "image": "images/armed-dangerous.png",
+    "description": null,
+    "manuals": [],
+    "imageSource": {
+      "page": "https://bang.dvgames.com/prod.php?id=17&lang=it",
+      "url": "https://bang.dvgames.com/content/17/box/bang_armed_&_dangerous.png"
+    }
+  },
+  {
+    "id": "the-great-train-robbery",
+    "name": "The great train robbery",
+    "type": "expansion",
+    "demo": false,
+    "players": null,
+    "image": "images/the-great-train-robbery.png",
+    "description": null,
+    "manuals": [],
+    "imageSource": {
+      "page": "https://bang.dvgames.com/prod.php?id=20&lang=it",
+      "url": "https://bang.dvgames.com/content/20/box/bang_the_great_train_robbery.png"
+    }
+  },
+  {
+    "id": "old-saloon",
+    "name": "Old saloon",
+    "type": "expansion",
+    "demo": false,
+    "players": null,
+    "image": "images/old-saloon.png",
+    "description": null,
+    "manuals": [],
+    "imageSource": {
+      "page": "https://bang.dvgames.com/prod.php?id=13&lang=it",
+      "url": "https://bang.dvgames.com/content/13/box/bang_the_dice_game_-_old_saloon.png"
+    }
+  },
+  {
+    "id": "undead-or-alive",
+    "name": "Undead or alive",
+    "type": "expansion",
+    "demo": false,
+    "players": null,
+    "image": "images/undead-or-alive.png",
+    "description": null,
+    "manuals": [],
+    "imageSource": {
+      "page": "https://bang.dvgames.com/prod.php?id=18&lang=it",
+      "url": "https://bang.dvgames.com/content/18/box/bang_the_dice_game_-_undead_or_alive.png"
+    }
+  },
+  {
+    "id": "imploding-kittens",
+    "name": "Imploding Kittens",
+    "type": "expansion",
+    "demo": false,
+    "players": null,
+    "image": "images/imploding-kittens.png",
+    "description": null,
+    "manuals": [],
+    "imageSource": {
+      "page": "https://www.explodingkittens.com/products/imploding-kittens-expansion-of-exploding-kittens",
+      "url": "https://cdn.shopify.com/s/files/1/0345/9180/1483/products/EKG-1EXP_PDPContent_DTC_1400x1400FOB.png?v=1678403264"
+    }
+  },
+  {
+    "id": "streaking-kittens",
+    "name": "Streaking Kittens",
+    "type": "expansion",
+    "demo": false,
+    "players": null,
+    "image": "images/streaking-kittens.png",
+    "description": null,
+    "manuals": [],
+    "imageSource": {
+      "page": "https://www.explodingkittens.com/products/streaking-kittens-expansion-of-exploding-kittens",
+      "url": "https://cdn.shopify.com/s/files/1/0345/9180/1483/products/EK_SK_HERO_f4a5b84c-d676-44bf-a857-d3b0def76bdc.png?v=1678403985"
+    }
+  },
+  {
+    "id": "barking-kittens",
+    "name": "Barking Kittens",
+    "type": "expansion",
+    "demo": false,
+    "players": null,
+    "image": "images/barking-kittens.png",
+    "description": null,
+    "manuals": [],
+    "imageSource": {
+      "page": "https://www.explodingkittens.com/products/barking-kittens-expansion-pack",
+      "url": "https://cdn.shopify.com/s/files/1/0345/9180/1483/products/EKG-3EXP_PDPContent_DTC_1400x1400FOB.png?v=1678404807"
+    }
+  },
+  {
+    "id": "pioggia-battente",
+    "name": "Pioggia Battente",
+    "type": "expansion",
+    "demo": false,
+    "players": null,
+    "image": "images/pioggia-battente.webp",
+    "description": null,
+    "manuals": [],
+    "imageSource": {
+      "page": "https://www.daysofwonder.com/game/heat-heavy-rain/",
+      "url": "https://cdn.svc.asmodee.net/production-daysofwonder/uploads/image-converter/2024/07/HEAT_HEAVY-RAIN_SPREADBOX_EN.webp"
+    }
+  },
+  {
+    "id": "visione-a-tunnel",
+    "name": "Visione a Tunnel",
+    "type": "expansion",
+    "demo": false,
+    "players": null,
+    "image": "images/visione-a-tunnel.webp",
+    "description": null,
+    "manuals": [],
+    "imageSource": {
+      "page": "https://www.daysofwonder.com/game/heat-tunnel-vision/",
+      "url": "https://cdn.svc.asmodee.net/production-daysofwonder/uploads/image-converter/2025/02/9103-HTEX2_EN_TOPBOX_20240924.webp"
+    }
+  },
+  {
+    "id": "la-vendetta-della-lupa-mannara",
+    "name": "La vendetta della lupa mannara",
+    "type": "expansion",
+    "demo": false,
+    "players": null,
+    "image": "images/la-vendetta-della-lupa-mannara.jpg",
+    "description": null,
+    "manuals": [],
+    "imageSource": {
+      "page": "https://www.gameway.it/p/5712793714032640",
+      "url": "https://www.gameway.it/img/f/medium/670001.jpg"
+    }
+  },
+  {
+    "id": "mascarade-prima-espansione",
+    "name": "prima espansione",
+    "type": "expansion",
+    "demo": false,
+    "players": null,
+    "image": "images/mascarade-prima-espansione.webp",
+    "description": null,
+    "manuals": [],
+    "imageSource": {
+      "page": "https://www.uplay.it/it/gioco-da-tavolo-mascarade-espansione.html",
+      "url": "https://www.uplay.it/storage/562799/conversions/mascarade-espansione-foto.webp"
+    }
+  },
+  {
+    "id": "block-block-burrito",
+    "name": "Block block burrito",
+    "type": "expansion",
+    "demo": false,
+    "players": null,
+    "image": "images/block-block-burrito.png",
+    "description": null,
+    "manuals": [],
+    "imageSource": {
+      "page": "https://www.explodingkittens.com/products/block-block-burrito",
+      "url": "https://cdn.shopify.com/s/files/1/0345/9180/1483/products/TT-1EXP_BoxFRONT.png?v=1678211021"
+    }
+  },
+  {
+    "id": "double-trouble",
+    "name": "double trouble",
+    "type": "expansion",
+    "demo": false,
+    "players": null,
+    "image": "images/double-trouble.jpg",
+    "description": null,
+    "manuals": [],
+    "imageSource": {
+      "page": "https://warmaster.it/products/vudu-double-trouble",
+      "url": "https://cdn.shopify.com/s/files/1/0947/1787/0404/files/12473_vudu-double-trouble.jpg?v=1768662702"
+    }
+  },
+  {
+    "id": "mondi-paralleli",
+    "name": "mondi paralleli",
+    "type": "expansion",
+    "demo": false,
+    "players": null,
+    "image": "images/mondi-paralleli.webp",
+    "description": null,
+    "manuals": [],
+    "imageSource": {
+      "page": "https://www.uplay.it/it/gioco-da-tavolo-vud---mondi-paralleli.html",
+      "url": "https://www.uplay.it/storage/432809/conversions/vudu-mondi-paralleli-foto.webp"
+    }
+  }
+]

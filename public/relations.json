@@ -1,0 +1,179 @@
+[
+  {
+    "id": "dodge-city-for-bang",
+    "type": "expansion_for",
+    "from": "dodge-city",
+    "to": "bang",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": {
+      "min": 3,
+      "max": 8
+    }
+  },
+  {
+    "id": "mezzo-giorno-di-fuoco-for-bang",
+    "type": "expansion_for",
+    "from": "mezzo-giorno-di-fuoco",
+    "to": "bang",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": null
+  },
+  {
+    "id": "per-un-pugno-di-carte-for-bang",
+    "type": "expansion_for",
+    "from": "per-un-pugno-di-carte",
+    "to": "bang",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": null
+  },
+  {
+    "id": "wild-west-show-for-bang",
+    "type": "expansion_for",
+    "from": "wild-west-show",
+    "to": "bang",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": null
+  },
+  {
+    "id": "the-valley-of-shadows-for-bang",
+    "type": "expansion_for",
+    "from": "the-valley-of-shadows",
+    "to": "bang",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": null
+  },
+  {
+    "id": "gold-rush-for-bang",
+    "type": "expansion_for",
+    "from": "gold-rush",
+    "to": "bang",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": null
+  },
+  {
+    "id": "armed-dangerous-for-bang",
+    "type": "expansion_for",
+    "from": "armed-dangerous",
+    "to": "bang",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": null
+  },
+  {
+    "id": "the-great-train-robbery-for-bang",
+    "type": "expansion_for",
+    "from": "the-great-train-robbery",
+    "to": "bang",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": null
+  },
+  {
+    "id": "old-saloon-for-bang-dice-explosion",
+    "type": "expansion_for",
+    "from": "old-saloon",
+    "to": "bang-dice-explosion",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": null
+  },
+  {
+    "id": "undead-or-alive-for-bang-dice-explosion",
+    "type": "expansion_for",
+    "from": "undead-or-alive",
+    "to": "bang-dice-explosion",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": null
+  },
+  {
+    "id": "imploding-kittens-for-exploding-kittens",
+    "type": "expansion_for",
+    "from": "imploding-kittens",
+    "to": "exploding-kittens",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": null
+  },
+  {
+    "id": "streaking-kittens-for-exploding-kittens",
+    "type": "expansion_for",
+    "from": "streaking-kittens",
+    "to": "exploding-kittens",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": null
+  },
+  {
+    "id": "barking-kittens-for-exploding-kittens",
+    "type": "expansion_for",
+    "from": "barking-kittens",
+    "to": "exploding-kittens",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": null
+  },
+  {
+    "id": "pioggia-battente-for-heat",
+    "type": "expansion_for",
+    "from": "pioggia-battente",
+    "to": "heat",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": null,
+    "conditions": "Annotazione del proprietario: +1 giocatore. Limite totale della configurazione non specificato."
+  },
+  {
+    "id": "visione-a-tunnel-for-heat",
+    "type": "expansion_for",
+    "from": "visione-a-tunnel",
+    "to": "heat",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": null,
+    "conditions": "Annotazione del proprietario: +1 giocatore. Limite totale della configurazione non specificato."
+  },
+  {
+    "id": "la-vendetta-della-lupa-mannara-for-lupus-in-tabula",
+    "type": "expansion_for",
+    "from": "la-vendetta-della-lupa-mannara",
+    "to": "lupus-in-tabula",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": null,
+    "conditions": "Intervallo indicato dal proprietario: 4–31 / 35. Limite massimo da chiarire."
+  },
+  {
+    "id": "mascarade-prima-espansione-for-mascarade",
+    "type": "expansion_for",
+    "from": "mascarade-prima-espansione",
+    "to": "mascarade",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": null
+  },
+  {
+    "id": "block-block-burrito-for-throw-throw-burrito",
+    "type": "expansion_for",
+    "from": "block-block-burrito",
+    "to": "throw-throw-burrito",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": null
+  },
+  {
+    "id": "double-trouble-for-vudu",
+    "type": "expansion_for",
+    "from": "double-trouble",
+    "to": "vudu",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": {
+      "min": 4,
+      "max": 16
+    }
+  },
+  {
+    "id": "mondi-paralleli-for-vudu",
+    "type": "expansion_for",
+    "from": "mondi-paralleli",
+    "to": "vudu",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": null
+  },
+  {
+    "id": "block-block-burrito-for-throw-throw-avocado",
+    "type": "expansion_for",
+    "from": "block-block-burrito",
+    "to": "throw-throw-avocado",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": null
+  }
+]

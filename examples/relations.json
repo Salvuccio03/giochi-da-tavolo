@@ -1,0 +1,48 @@
+[
+  {
+    "id": "r1",
+    "type": "expansion_for",
+    "from": "orbite",
+    "to": "atlante",
+    "conditions": "Esempio: compatibilità limitata allo scenario indicato dal regolamento."
+  },
+  {
+    "id": "r2",
+    "type": "expansion_for",
+    "from": "orbite",
+    "to": "mare",
+    "conditions": "Esempio di espansione condivisa. Questa relazione non autorizza a combinare i due giochi base."
+  },
+  {
+    "id": "r3",
+    "type": "combines_with",
+    "from": "selva",
+    "to": "luna",
+    "conditions": "Esempio di combinazione tra prodotti autonomi: usare soltanto il modulo dedicato.",
+    "combinedPlayers": null
+  },
+  {
+    "id": "r4",
+    "type": "requires",
+    "from": "orbite",
+    "to": "atlante",
+    "conditions": "Esempio: requisito per la modalità campagna."
+  },
+  {
+    "id": "r5",
+    "type": "expansion_for",
+    "from": "eco",
+    "to": "orbite",
+    "requiredProductIds": [
+      "atlante"
+    ],
+    "conditions": "Esempio di espansione di espansione: richiede anche il gioco base indicato."
+  },
+  {
+    "id": "r6",
+    "type": "expansion_for",
+    "from": "archivio",
+    "to": "atlante",
+    "conditions": "Esempio di prodotto senza immagine, descrizione o manuali."
+  }
+]

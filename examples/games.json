@@ -1,0 +1,92 @@
+[
+  {
+    "id": "atlante",
+    "name": "Atlante delle stelle",
+    "type": "base",
+    "demo": true,
+    "players": null,
+    "image": "images/atlante.svg",
+    "description": "Atlante delle stelle è un prodotto fittizio usato per illustrare la collezione. Sostituisci questo testo con una breve descrizione verificata del tuo gioco. Le relazioni mostrate sono esempi di struttura, non compatibilità di prodotti reali.",
+    "manuals": []
+  },
+  {
+    "id": "selva",
+    "name": "La selva silenziosa",
+    "type": "standalone",
+    "demo": true,
+    "players": null,
+    "image": "images/selva.svg",
+    "description": "La selva silenziosa è un prodotto fittizio usato per illustrare la collezione. Sostituisci questo testo con una breve descrizione verificata del tuo gioco. Le relazioni mostrate sono esempi di struttura, non compatibilità di prodotti reali.",
+    "manuals": []
+  },
+  {
+    "id": "mare",
+    "name": "Oltre il mare",
+    "type": "base",
+    "demo": true,
+    "players": null,
+    "image": "images/mare.svg",
+    "description": "Oltre il mare è un prodotto fittizio usato per illustrare la collezione. Sostituisci questo testo con una breve descrizione verificata del tuo gioco. Le relazioni mostrate sono esempi di struttura, non compatibilità di prodotti reali.",
+    "manuals": []
+  },
+  {
+    "id": "citta",
+    "name": "La città di rame",
+    "type": "standalone",
+    "demo": true,
+    "players": null,
+    "image": "images/citta.svg",
+    "description": "La città di rame è un prodotto fittizio usato per illustrare la collezione. Sostituisci questo testo con una breve descrizione verificata del tuo gioco. Le relazioni mostrate sono esempi di struttura, non compatibilità di prodotti reali.",
+    "manuals": []
+  },
+  {
+    "id": "luna",
+    "name": "Il giardino della luna",
+    "type": "standalone_expansion",
+    "demo": true,
+    "players": null,
+    "image": "images/luna.svg",
+    "description": "Il giardino della luna è un prodotto fittizio usato per illustrare la collezione. Sostituisci questo testo con una breve descrizione verificata del tuo gioco. Le relazioni mostrate sono esempi di struttura, non compatibilità di prodotti reali.",
+    "manuals": []
+  },
+  {
+    "id": "isole",
+    "name": "Isole di carta",
+    "type": "standalone",
+    "demo": true,
+    "players": null,
+    "image": "images/isole.svg",
+    "description": "Isole di carta è un prodotto fittizio usato per illustrare la collezione. Sostituisci questo testo con una breve descrizione verificata del tuo gioco. Le relazioni mostrate sono esempi di struttura, non compatibilità di prodotti reali.",
+    "manuals": []
+  },
+  {
+    "id": "orbite",
+    "name": "Orbite lontane",
+    "type": "expansion",
+    "demo": true,
+    "players": null,
+    "image": "images/orbite.svg",
+    "description": "Orbite lontane è un prodotto fittizio usato per illustrare la collezione. Sostituisci questo testo con una breve descrizione verificata del tuo gioco. Le relazioni mostrate sono esempi di struttura, non compatibilità di prodotti reali.",
+    "manuals": []
+  },
+  {
+    "id": "eco",
+    "name": "Echi del cosmo",
+    "type": "expansion",
+    "demo": true,
+    "players": null,
+    "image": "images/eco.svg",
+    "description": "Echi del cosmo è un prodotto fittizio usato per illustrare la collezione. Sostituisci questo testo con una breve descrizione verificata del tuo gioco. Le relazioni mostrate sono esempi di struttura, non compatibilità di prodotti reali.",
+    "manuals": []
+  },
+  {
+    "id": "archivio",
+    "name": "L’archivio perduto",
+    "type": "expansion",
+    "demo": true,
+    "players": null,
+    "image": null,
+    "description": null,
+    "manuals": []
+  }
+]
