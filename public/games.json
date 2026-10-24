@@ -899,14 +899,19 @@
     "name": "La vendetta della lupa mannara",
     "type": "expansion",
     "demo": false,
-    "players": null,
+    "players": {
+      "min": 4,
+      "max": 31
+    },
     "image": "images/la-vendetta-della-lupa-mannara.jpg",
     "description": null,
     "manuals": [],
     "imageSource": {
       "page": "https://www.gameway.it/p/5712793714032640",
       "url": "https://www.gameway.it/img/f/medium/670001.jpg"
-    }
+    },
+    "playersSource": "Inserito dal proprietario nel gestore locale.",
+    "playerConfigurations": []
   },
   {
     "id": "mascarade-prima-espansione",

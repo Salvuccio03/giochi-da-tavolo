@@ -107,15 +107,6 @@
     "combinedPlayers": null
   },
   {
-    "id": "la-vendetta-della-lupa-mannara-for-lupus-in-tabula",
-    "type": "expansion_for",
-    "from": "la-vendetta-della-lupa-mannara",
-    "to": "lupus-in-tabula",
-    "source": "Lista espansioni fornita dal proprietario.",
-    "combinedPlayers": null,
-    "conditions": "Intervallo indicato dal proprietario: 4–31 / 35. Limite massimo da chiarire."
-  },
-  {
     "id": "mascarade-prima-espansione-for-mascarade",
     "type": "expansion_for",
     "from": "mascarade-prima-espansione",
@@ -178,6 +169,16 @@
       "max": 16
     },
     "conditions": "",
+    "requiredProductIds": []
+  },
+  {
+    "id": "la-vendetta-della-lupa-mannara-for-lupus-in-tabula",
+    "type": "expansion_for",
+    "from": "la-vendetta-della-lupa-mannara",
+    "to": "lupus-in-tabula",
+    "source": "Lista espansioni fornita dal proprietario.",
+    "combinedPlayers": null,
+    "conditions": "Intervallo indicato dal proprietario: 4–31 / 35. Limite massimo da chiarire.",
     "requiredProductIds": []
   }
 ]
