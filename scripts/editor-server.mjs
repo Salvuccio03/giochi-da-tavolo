@@ -6,6 +6,7 @@ import { resolve, dirname, join, extname } from 'node:path'
 import { randomUUID, createHash } from 'node:crypto'
 import { validateCollection } from '../src/collection.js'
 import { publishCatalog } from './publish.mjs'
+import { loadCredential, saveCredential, forgetCredential } from './credentials.mjs'
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 export const revisionOf = (products, relations) => createHash('sha256').update(JSON.stringify([products, relations])).digest('hex')
@@ -48,6 +49,7 @@ export function createEditorServer({ root = projectRoot, publish = publishCatalo
       const url = new URL(req.url, origin)
       if (url.pathname.startsWith('/api/')) {
         if (req.headers['x-editor-token'] !== token) return reply(403, { error: 'Sessione non valida. Ricarica il gestore.' })
+        if (req.method === 'GET' && url.pathname === '/api/credential') return reply(200, { saved: !!(await loadCredential(root)) })
         if (req.method === 'GET' && url.pathname === '/api/deployment') {
           const match = /^https:\/\/github\.com\/([\w-]+)\/([\w.-]+?)\/?$/.exec(url.searchParams.get('repository') || '')
           if(!match) throw Error('Repository non valido.')
@@ -69,6 +71,11 @@ export function createEditorServer({ root = projectRoot, publish = publishCatalo
         if (req.method === 'GET' && url.pathname === '/api/collection') return reply(200, await readCollection(root))
         if (req.method !== 'POST' || !req.headers['content-type']?.startsWith('application/json')) return reply(405, { error: 'Richiesta non supportata.' })
         const input = await body(req)
+        if (url.pathname === '/api/credential') {
+          if (input.forget) await forgetCredential(root)
+          else await saveCredential(root, input.githubToken)
+          return reply(200, { saved: !input.forget })
+        }
         if (url.pathname === '/api/upload') {
           const bytes = Buffer.from(input.data || '', 'base64')
           if (!bytes.length || bytes.length > 15 * 1024 * 1024) throw Error('Carica un file fino a 15 MB.')
@@ -108,7 +115,7 @@ export function createEditorServer({ root = projectRoot, publish = publishCatalo
         if (url.pathname === '/api/publish') {
           if (publishing) return reply(409, { error: 'Pubblicazione già in corso.' })
           publishing = true
-          try { return reply(200, await publish({ root, ...input })) } finally { publishing = false }
+          try { return reply(200, await publish({ root, ...input, githubToken: input.githubToken || await loadCredential(root) })) } finally { publishing = false }
         }
         return reply(404, { error: 'Operazione non trovata.' })
       }
@@ -133,7 +140,7 @@ export function createEditorServer({ root = projectRoot, publish = publishCatalo
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const openBrowser = () => {
     if (!process.argv.includes('--open')) return
-    const command = process.platform === 'win32' ? ['powershell.exe',['-NoProfile','-Command',"Start-Process 'http://127.0.0.1:4317'"]] : process.platform === 'darwin' ? ['open',['http://127.0.0.1:4317']] : ['xdg-open',['http://127.0.0.1:4317']]
+    const command = process.platform === 'win32' ? ['cmd.exe',['/d','/c','start','""','http://127.0.0.1:4317']] : process.platform === 'darwin' ? ['open',['http://127.0.0.1:4317']] : ['xdg-open',['http://127.0.0.1:4317']]
     const child = spawn(command[0],command[1],{windowsHide:true,stdio:'ignore',detached:true});child.on('error',()=>{});child.unref()
   }
   let sessionToken

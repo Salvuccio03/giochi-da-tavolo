@@ -43,7 +43,7 @@ Il primo invio configura Pages con GitHub Actions e carica il progetto. I succes
 
 Indirizzo atteso dopo il primo deploy riuscito: https://salvuccio03.github.io/giochi-da-tavolo/
 
-Il token rimane soltanto in memoria nel browser e nella richiesta locale al server. Il server lo usa per le richieste HTTPS a GitHub e non lo salva. Dopo chiusura o ricaricamento della pagina devi reinserirlo; quando scade generane uno nuovo. Puoi revocarlo dalle impostazioni GitHub. Il link del repository, che non è segreto, viene ricordato dal browser.
+Premi **Salva chiave su questo PC** nel pannello GitHub per ricordare il token. Viene cifrato per il tuo account Windows nel file `.catalog-github.local`, escluso da Git e dalla pubblicazione. Il gestore lo riutilizza agli avvii successivi senza rimandarlo al browser. Per eliminarlo premi **Rimuovi chiave salvata**; per sostituirlo incolla un nuovo token e salvalo. Puoi revocarlo dalle impostazioni GitHub. Il link del repository, che non è segreto, viene ricordato dal browser.
 
 GitHub Pages e i workflow con runner Ubuntu standard sono gratuiti per repository pubblici. I sorgenti, i dati, i PDF e le immagini pubblicati saranno pubblici. Non viene attivato alcun servizio a pagamento. Riferimento: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
 

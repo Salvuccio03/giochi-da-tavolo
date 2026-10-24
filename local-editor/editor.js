@@ -132,12 +132,26 @@ $('#image-upload').addEventListener('change',e=>{const file=e.target.files[0];pe
 $('#new-product').addEventListener('click',()=>select(null));$('#filter').addEventListener('input',renderList)
 $('#add-manual').addEventListener('click',()=>{addManual();markDirty()});$('#add-relation').addEventListener('click',()=>{addRelation();markDirty()});$('#add-configuration').addEventListener('click',()=>{addConfiguration();markDirty()})
 form.addEventListener('submit',e=>{e.preventDefault();if(form.reportValidity())perform(save)})
+let credentialSaved = false
+function credentialStatus(saved) {
+  credentialSaved = saved
+  $('#credential-status').textContent = saved ? 'Chiave salvata su questo PC.' : 'Nessuna chiave salvata.'
+  $('#github-token').placeholder = saved ? 'Chiave salvata; incolla qui per sostituirla' : 'Incolla qui, mai in chat'
+}
+$('#save-credential').addEventListener('click',()=>perform(async()=>{
+  const result = await api('credential',{githubToken:$('#github-token').value.trim()})
+  credentialStatus(result.saved); $('#github-token').value=''; notice('Chiave salvata e protetta con il tuo account Windows.')
+}))
+$('#forget-credential').addEventListener('click',()=>perform(async()=>{
+  await api('credential',{forget:true}); credentialStatus(false); $('#github-token').value=''; notice('Chiave rimossa da questo PC.')
+}))
+try { credentialStatus((await api('credential')).saved) } catch(e) { notice(e.message,'error') }
 $('#github-toggle').addEventListener('click',()=>{$('#github-panel').hidden=!$('#github-panel').hidden})
 $('#repository').value=localStorage.getItem('catalog-repository')||'https://github.com/Salvuccio03/giochi-da-tavolo'
 $('#repository').addEventListener('change',()=>localStorage.setItem('catalog-repository',$('#repository').value.trim()))
 $('#save-publish').addEventListener('click',()=>{ if(!form.reportValidity()) return; perform(async()=>{
   await save()
-  if(!$('#github-token').value.trim()){ $('#github-panel').hidden=false;throw Error('Salvato sul PC. Per aggiornare online inserisci il token GitHub nel pannello in alto.') }
+  if(!$('#github-token').value.trim() && !credentialSaved){ $('#github-panel').hidden=false;throw Error('Salvato sul PC. Per aggiornare online inserisci il token GitHub nel pannello in alto.') }
   notice('Invio a GitHub in corso. Lascia aperta questa pagina…','busy')
   const result=await api('publish',{repository:$('#repository').value.trim(),githubToken:$('#github-token').value.trim(),revision:state.revision})
   notice(result.message)

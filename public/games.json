@@ -350,7 +350,12 @@
     "playersSource": "Lista fornita dal proprietario; edizione e dati ufficiali non verificati.",
     "image": "https://imgs.search.brave.com/KGXWbKPVDY9P-NGpWVVktOReVHRzJro1ZwBLOnaCL5k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLmVi/YXlpbWcuY29tL2lt/YWdlcy9nL1lVSUFB/ZVN3NXNscGx1flMv/cy1sMjI1LmpwZw",
     "description": null,
-    "manuals": [],
+    "manuals": [
+      {
+        "label": "LupusInTabulaITARules",
+        "url": "manuals/a38dd90e-8348-4d92-95c6-3cae336a9b3f.pdf"
+      }
+    ],
     "playerConfigurations": []
   },
   {
